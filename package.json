@@ -10,6 +10,7 @@
     "format": "prettier --loglevel silent --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.21.13",
     "@radix-ui/react-slot": "^1.0.2",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@types/node": "20.3.3",

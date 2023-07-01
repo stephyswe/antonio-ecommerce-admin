@@ -42,4 +42,15 @@ npx shadcn-ui@latest init
 
 npx shadcn-ui@latest add button
 
-## Environment Setup (Admin)
+## Clerk Authentication (Admin)
+https://dashboard.clerk.com/apps/new
+Name: ecommerce-admin
+create application - nextjs - copy env to env.local
+npm i @clerk/nextjs
+<mount clerk provider>
+- sign-in and sign-up pages
+add clerk env variables to .env.local
+npm run dev - redirect to sign in page
+- userbutton to homepage
+
+## Clerk Authentication (Admin)
