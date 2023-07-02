@@ -53,4 +53,6 @@ add clerk env variables to .env.local
 npm run dev - redirect to sign in page
 - userbutton to homepage
 
-## Clerk Authentication (Admin)
+## Modal components (Admin)
+npx shadcn-ui@latest add dialog - (refactored)
+npm i zustand
