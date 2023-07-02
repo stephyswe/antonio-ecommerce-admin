@@ -56,3 +56,7 @@ npm run dev - redirect to sign in page
 ## Modal components (Admin)
 npx shadcn-ui@latest add dialog - (refactored)
 npm i zustand
+
+## Form components (Admin)
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
