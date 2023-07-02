@@ -33,6 +33,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Tips
+Use use dotenv to load environment variables from .env.local
+npm i dotenv-cli
+"prisma:generate": "dotenv -e .env.local npx prisma generate",
+
 ## Environment Setup (Admin)
 npx create-next-app ecommerce-admin --typescript --tailwind --eslint
 (no src, yes router, no customize)
@@ -60,3 +65,16 @@ npm i zustand
 ## Form components (Admin)
 npx shadcn-ui@latest add form
 npx shadcn-ui@latest add input
+
+## Prisma, PlanetScale, MySQL setup (Admin)
+npm i -D prisma
+npm i @prisma/client
+npx prisma init
+
+https://app.planetscale.com/ - create database - connect to your database - create password - connect with prisma
+- copy database url to .env.local
+- copy schema to prisma/schema.prisma + modal Store
+npx prisma generate
+
+npm i axios
+npm i react-hot-toast
