@@ -79,7 +79,11 @@ npx prisma generate
 npm i axios
 npm i react-hot-toast
 
-## Reset Database
+### Reset Database
 npx prisma migrate reset
 npx prisma generate
 npx prisma db push
+
+## Navigation bar (Admin)
+npx shadcn-ui@latest add popover
+npx shadcn-ui@latest add command
