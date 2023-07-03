@@ -78,3 +78,8 @@ npx prisma generate
 
 npm i axios
 npm i react-hot-toast
+
+## Reset Database
+npx prisma migrate reset
+npx prisma generate
+npx prisma db push
