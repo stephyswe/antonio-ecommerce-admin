@@ -13,10 +13,11 @@
     "prisma:db": "dotenv -e .env.local npx prisma db push",
     "prisma:generate": "dotenv -e .env.local npx prisma generate",
     "prisma:seed": "dotenv -e .env.local ts-node prisma/seed.mjs",
-    "prisma:studio": "dotenv -e .env.local npx prisma studio"
+    "prisma:studio": "dotenv -e .env.local npx prisma studio",
+    "prisma:migrate:reset": "dotenv -e .env.local npx prisma migrate reset"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.21.13",
+    "@clerk/nextjs": "^4.21.3",
     "@hookform/resolvers": "^3.1.1",
     "@prisma/client": "^4.16.2",
     "@radix-ui/react-dialog": "^1.0.4",
