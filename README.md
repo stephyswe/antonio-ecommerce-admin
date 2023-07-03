@@ -33,11 +33,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Tips
-Use use dotenv to load environment variables from .env.local
-npm i dotenv-cli
-"prisma:generate": "dotenv -e .env.local npx prisma generate",
-
 ## Environment Setup (Admin)
 npx create-next-app ecommerce-admin --typescript --tailwind --eslint
 (no src, yes router, no customize)
@@ -50,16 +45,16 @@ npx shadcn-ui@latest add button
 ## Clerk Authentication (Admin)
 https://dashboard.clerk.com/apps/new
 Name: ecommerce-admin
-create application - nextjs - copy env to env.local
+create application - nextjs - copy env to .env
 npm i @clerk/nextjs
 <mount clerk provider>
 - sign-in and sign-up pages
-add clerk env variables to .env.local
+add clerk env variables to .env
 npm run dev - redirect to sign in page
 - userbutton to homepage
 
 ## Modal components (Admin)
-npx shadcn-ui@latest add dialog - (refactored)
+npx shadcn-ui@latest add dialog
 npm i zustand
 
 ## Form components (Admin)
@@ -72,7 +67,7 @@ npm i @prisma/client
 npx prisma init
 
 https://app.planetscale.com/ - create database - connect to your database - create password - connect with prisma
-- copy database url to .env.local
+- copy database url to .env
 - copy schema to prisma/schema.prisma + modal Store
 npx prisma generate
 
@@ -87,3 +82,8 @@ npx prisma db push
 ## Navigation bar (Admin)
 npx shadcn-ui@latest add popover
 npx shadcn-ui@latest add command
+
+## Settings page (Admin)
+npx shadcn-ui@latest add separator
+npx shadcn-ui@latest add alert
+npx shadcn-ui@latest add badge
