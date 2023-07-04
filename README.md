@@ -105,3 +105,8 @@ image-upload.tsx
 https://console.cloudinary.com/console/ - Settings - Upload
 - Add upload preset - copy name to uploadPreset - signing mode: unsigned - save
 
+## Data Table (Admin)
+npx shadcn-ui@latest add table
+npm i @tanstack/react-table
+npm i date-fns
+npx shadcn-ui@latest add dropdown-menu
