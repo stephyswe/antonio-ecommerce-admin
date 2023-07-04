@@ -87,3 +87,21 @@ npx shadcn-ui@latest add command
 npx shadcn-ui@latest add separator
 npx shadcn-ui@latest add alert
 npx shadcn-ui@latest add badge
+
+## Billboards Entity (Admin)
+
+npx prisma generate
+npx prisma db push
+
+### Cloudinary setup
+https://console.cloudinary.com/console/ - Dashboard - copy cloud name
+
+https://next-cloudinary.spacejelly.dev/installation - add Configuration to .env - add cloud name
+
+npm i next-cloudinary
+
+image-upload.tsx
+<CldUploadWidget onUpload={onUpload} uploadPreset="...">
+https://console.cloudinary.com/console/ - Settings - Upload
+- Add upload preset - copy name to uploadPreset - signing mode: unsigned - save
+
