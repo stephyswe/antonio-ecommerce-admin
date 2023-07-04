@@ -110,3 +110,8 @@ npx shadcn-ui@latest add table
 npm i @tanstack/react-table
 npm i date-fns
 npx shadcn-ui@latest add dropdown-menu
+
+## Categories Entity (Admin)
+npx prisma generate - Categories
+npx prisma db push
+npx shadcn-ui@latest add select
