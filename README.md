@@ -93,6 +93,8 @@ npx shadcn-ui@latest add badge
 npx prisma generate
 npx prisma db push
 
+Create two billboards
+
 ### Cloudinary setup
 https://console.cloudinary.com/console/ - Dashboard - copy cloud name
 
@@ -115,3 +117,11 @@ npx shadcn-ui@latest add dropdown-menu
 npx prisma generate - Categories
 npx prisma db push
 npx shadcn-ui@latest add select
+
+Create one category
+
+## Sizes Entity (Admin)
+npx prisma generate - Sizes
+npx prisma db push
+
+Create Small S & Medium - M sizes
