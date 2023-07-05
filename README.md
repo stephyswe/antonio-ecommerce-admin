@@ -114,20 +114,25 @@ npm i date-fns
 npx shadcn-ui@latest add dropdown-menu
 
 ## Categories Entity (Admin)
-npx prisma generate - Categories
+npx prisma generate
 npx prisma db push
 npx shadcn-ui@latest add select
 
 Create one category
 
 ## Sizes Entity (Admin)
-npx prisma generate - Sizes
+npx prisma generate
 npx prisma db push
 
 Create Small S & Medium - M sizes
 
 ## Colors Entity (Admin)
-npx prisma generate - Colors
+npx prisma generate
 npx prisma db push
 
 Create Black #000000
+
+## Products Entity (Admin)
+npx prisma generate
+npx prisma db push
+npx shadcn-ui@latest add checkbox
