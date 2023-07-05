@@ -125,3 +125,9 @@ npx prisma generate - Sizes
 npx prisma db push
 
 Create Small S & Medium - M sizes
+
+## Colors Entity (Admin)
+npx prisma generate - Colors
+npx prisma db push
+
+Create Black #000000
