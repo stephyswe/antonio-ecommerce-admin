@@ -136,3 +136,7 @@ Create Black #000000
 npx prisma generate
 npx prisma db push
 npx shadcn-ui@latest add checkbox
+
+## Orders Entity (Admin)
+npx prisma generate
+npx prisma db push
