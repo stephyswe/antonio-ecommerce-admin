@@ -140,3 +140,13 @@ npx shadcn-ui@latest add checkbox
 ## Orders Entity (Admin)
 npx prisma generate
 npx prisma db push
+
+## Stripe Setup & Checkout finalization (Admin, Store)
+npm i stripe
+FRONTEND_STORE_URL=http://localhost:3000
+https://dashboard.stripe.com/test/dashboard - copy secret key to .env STRIPE_API_KEY
+https://dashboard.stripe.com/test/webhooks - download stripe cli
+- stripe login
+- stripe listen --forward-to localhost:3000/api/webhook
+- copy webhook secret to .env STRIPE_WEBHOOK_SECRET
+- checkout an item in store
