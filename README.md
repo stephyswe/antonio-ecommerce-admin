@@ -154,3 +154,6 @@ https://dashboard.stripe.com/test/webhooks - download stripe cli
 ## Dashboard page (Admin)
 npx shadcn-ui@latest add card
 npm i recharts
+
+## Dark Mode (Admin)
+npm i next-themes
