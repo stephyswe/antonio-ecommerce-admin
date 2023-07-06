@@ -150,3 +150,7 @@ https://dashboard.stripe.com/test/webhooks - download stripe cli
 - stripe listen --forward-to localhost:3000/api/webhook
 - copy webhook secret to .env STRIPE_WEBHOOK_SECRET
 - checkout an item in store
+
+## Dashboard page (Admin)
+npx shadcn-ui@latest add card
+npm i recharts
